@@ -32,7 +32,7 @@ int value(){
 			cout << "The entered value is not correct, please try again " << endl;
 		}
 		else{
-			return x;
+			return 0;
 		}
 	}
 }
