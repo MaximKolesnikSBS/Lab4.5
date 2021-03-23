@@ -13,7 +13,7 @@ using namespace std;
 int value(){
 	while (true){
 		cout << "Enter the argument: ";
-		short x;
+		char x;
 		cin >> x;
 		if (cin.fail()) {
 			cin.clear();
@@ -30,7 +30,7 @@ int factorial(int n){
 }
 double calculations(int x){
 	double ch = 0;
-	const unsigned short n = 8;
+	const unsigned char n = 8;
 	for (int i = 0; i < n; i++){
 		ch += pow(x, 2 * i) / factorial(2 * i);
 	}
