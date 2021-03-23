@@ -10,10 +10,6 @@
 #include <cmath>
 #define _USE_MATH_DEFINES
 using namespace std;
-int value();
-int factorial(int n);
-double calculations(int x);
-int main();
 int value(){
 	while (true){
 		cout << "Enter the argument: ";
